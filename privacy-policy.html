@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Privacy Policy for Finora - Expense & Income Tracker">
+
+    <meta name="author"
+          content="Finora">
+
+    <meta name="theme-color"
+          content="#079455">
+
+    <title>Privacy Policy - Finora</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+
+            color: #172033;
+            background: #f8faf9;
+            line-height: 1.7;
+        }
+
+        a {
+            color: #079455;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: min(900px, 92%);
+            margin: auto;
+        }
+
+        /* Header */
+
+        header {
+            background: rgba(255,255,255,.97);
+            border-bottom: 1px solid #e8eee9;
+
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar {
+            min-height: 78px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            width: 44px;
+            height: 44px;
+
+            border-radius: 50%;
+
+            background: linear-gradient(
+                135deg,
+                #079455,
+                #0bbf70
+            );
+
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 21px;
+            font-weight: 800;
+        }
+
+        .brand-text strong {
+            display: block;
+            font-size: 21px;
+            line-height: 1.1;
+        }
+
+        .brand-text span {
+            display: block;
+            color: #667085;
+            font-size: 12px;
+        }
+
+        .back-button {
+            background: #079455;
+            color: white;
+
+            padding: 11px 20px;
+
+            border-radius: 10px;
+
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .back-button:hover {
+            color: white;
+            text-decoration: none;
+            background: #067a46;
+        }
+
+        /* Hero */
+
+        .page-hero {
+            background:
+                linear-gradient(
+                    135deg,
+                    #effcf3,
+                    #ffffff
+                );
+
+            padding: 70px 0 55px;
+
+            text-align: center;
+
+            border-bottom: 1px solid #edf2ee;
+        }
+
+        .page-hero h1 {
+            font-size: clamp(34px, 5vw, 48px);
+            margin-bottom: 12px;
+        }
+
+        .page-hero h1 span {
+            color: #079455;
+        }
+
+        .page-hero p {
+            color: #667085;
+            font-size: 16px;
+        }
+
+        /* Content */
+
+        main {
+            padding: 55px 0 80px;
+        }
+
+        .policy {
+            background: white;
+
+            border: 1px solid #e8eee9;
+
+            border-radius: 20px;
+
+            padding: clamp(25px, 5vw, 55px);
+
+            box-shadow:
+                0 10px 35px rgba(16,24,40,.05);
+        }
+
+        .updated {
+            background: #f1faf4;
+
+            border-left: 4px solid #079455;
+
+            padding: 13px 17px;
+
+            border-radius: 8px;
+
+            color: #475467;
+
+            margin-bottom: 35px;
+        }
+
+        .policy h2 {
+            font-size: 25px;
+
+            margin-top: 38px;
+            margin-bottom: 13px;
+
+            color: #172033;
+        }
+
+        .policy h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .policy h3 {
+            font-size: 18px;
+
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        .policy p {
+            color: #475467;
+
+            margin-bottom: 15px;
+        }
+
+        .policy ul {
+            margin: 10px 0 18px 22px;
+        }
+
+        .policy li {
+            color: #475467;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #f8faf9;
+
+            border: 1px solid #e7eee9;
+
+            padding: 18px;
+
+            border-radius: 12px;
+
+            margin: 18px 0;
+        }
+
+        .contact-box {
+            margin-top: 35px;
+
+            background: #effcf3;
+
+            border-radius: 16px;
+
+            padding: 25px;
+        }
+
+        .contact-box strong {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+
+        footer {
+            background: white;
+
+            border-top: 1px solid #e8eee9;
+
+            padding: 30px 0;
+
+            text-align: center;
+        }
+
+        footer p {
+            color: #98a2b3;
+            font-size: 13px;
+        }
+
+        .footer-links {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            margin: 0 8px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+
+            .navbar {
+                min-height: 70px;
+            }
+
+            .brand-text span {
+                display: none;
+            }
+
+            .back-button {
+                padding: 9px 14px;
+                font-size: 13px;
+            }
+
+            .page-hero {
+                padding: 50px 0 40px;
+            }
+
+            main {
+                padding: 30px 0 50px;
+            }
+
+            .policy {
+                border-radius: 14px;
+                padding: 25px 20px;
+            }
+
+            .policy h2 {
+                font-size: 22px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+<!-- Header -->
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="index.html"
+           class="brand">
+
+            <div class="logo">
+                F
+            </div>
+
+            <div class="brand-text">
+
+                <strong>
+                    Finora
+                </strong>
+
+                <span>
+                    Expense & Income Tracker
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <a href="index.html"
+           class="back-button">
+
+            ← Back to Home
+
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- Page Hero -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <h1>
+            Privacy <span>Policy</span>
+        </h1>
+
+        <p>
+            Finora – Expense & Income Tracker
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- Privacy Policy -->
+
+<main>
+
+    <div class="container">
+
+        <article class="policy">
+
+
+            <div class="updated">
+
+                <strong>Last Updated:</strong>
+                August 26, 2026
+
+            </div>
+
+
+            <p>
+                This Privacy Policy explains how Finora
+                ("we", "our", or "us") handles information
+                when you use the Finora – Expense & Income
+                Tracker mobile application ("App").
+            </p>
+
+
+            <p>
+                We respect your privacy and are committed
+                to protecting your personal information.
+                Please read this Privacy Policy carefully
+                to understand how information is handled
+                when you use Finora.
+            </p>
+
+
+
+            <!-- 1 -->
+
+            <h2>
+                1. Information We Collect
+            </h2>
+
+            <p>
+                Finora is designed primarily as a personal
+                finance tracking application. Depending on
+                the features you use, the App may process
+                information that you enter into the App.
+            </p>
+
+
+            <h3>
+                Financial Information
+            </h3>
+
+            <p>
+                You may voluntarily enter financial
+                information such as:
+            </p>
+
+            <ul>
+
+                <li>
+                    Expense amounts
+                </li>
+
+                <li>
+                    Income amounts
+                </li>
+
+                <li>
+                    Transaction descriptions
+                </li>
+
+                <li>
+                    Transaction dates
+                </li>
+
+                <li>
+                    Expense and income categories
+                </li>
+
+                <li>
+                    Budget information
+                </li>
+
+                <li>
+                    Financial goals
+                </li>
+
+            </ul>
+
+
+            <p>
+                This information is used to provide the
+                tracking, reporting and budgeting features
+                of the App.
+            </p>
+
+
+
+            <!-- 2 -->
+
+            <h2>
+                2. How Your Financial Data Is Used
+            </h2>
+
+            <p>
+                Information that you enter into Finora may
+                be used to provide and improve features such
+                as:
+            </p>
+
+            <ul>
+
+                <li>
+                    Expense tracking
+                </li>
+
+                <li>
+                    Income tracking
+                </li>
+
+                <li>
+                    Transaction history
+                </li>
+
+                <li>
+                    Budget management
+                </li>
+
+                <li>
+                    Financial summaries
+                </li>
+
+                <li>
+                    Spending reports and charts
+                </li>
+
+                <li>
+                    Search and filtering
+                </li>
+
+            </ul>
+
+
+            <div class="highlight">
+
+                <strong>
+                    Important:
+                </strong>
+
+                Finora does not provide financial,
+                investment, tax, accounting or legal advice.
+                Information displayed by the App is intended
+                for personal tracking and informational
+                purposes only.
+
+            </div>
+
+
+
+            <!-- 3 -->
+
+            <h2>
+                3. Data Storage
+            </h2>
+
+            <p>
+                Depending on the version and features of the
+                App, your information may be stored locally
+                on your device or through services used to
+                provide optional backup, synchronization or
+                other App functionality.
+            </p>
+
+            <p>
+                You should maintain appropriate backups of
+                information that is important to you.
+            </p>
+
+
+
+            <!-- 4 -->
+
+            <h2>
+                4. Advertising
+            </h2>
+
+            <p>
+                Finora may display advertisements provided
+                by third-party advertising services.
+            </p>
+
+            <p>
+                These advertising providers may collect
+                certain information about your device and
+                interaction with advertisements in accordance
+                with their own privacy policies.
+            </p>
+
+            <p>
+                Advertising services may use technologies
+                such as cookies, mobile advertising
+                identifiers or similar technologies to
+                provide, measure and improve advertising.
+            </p>
+
+            <p>
+                Where applicable, you can manage advertising
+                and privacy choices through the settings
+                provided by your device and the relevant
+                advertising provider.
+            </p>
+
+
+
+            <!-- 5 -->
+
+            <h2>
+                5. Analytics
+            </h2>
+
+            <p>
+                We may use analytics services to understand
+                how users interact with Finora and to improve
+                the App.
+            </p>
+
+            <p>
+                Analytics information may include technical
+                information such as application version,
+                device type, operating system version,
+                general usage information and crash
+                information.
+            </p>
+
+            <p>
+                Analytics information is intended to help us
+                identify problems, improve performance and
+                develop better features.
+            </p>
+
+
+
+            <!-- 6 -->
+
+            <h2>
+                6. Third-Party Services
+            </h2>
+
+            <p>
+                Finora may use third-party services to
+                support certain features, analytics,
+                advertising, crash reporting or other
+                functionality.
+            </p>
+
+            <p>
+                These third-party providers may process
+                information according to their own privacy
+                policies and terms.
+            </p>
+
+            <p>
+                Examples may include advertising,
+                analytics, cloud, hosting and application
+                infrastructure providers.
+            </p>
+
+
+
+            <!-- 7 -->
+
+            <h2>
+                7. Data Security
+            </h2>
+
+            <p>
+                We take reasonable measures to protect
+                information processed through Finora.
+            </p>
+
+            <p>
+                However, no method of electronic storage,
+                transmission or communication can be
+                guaranteed to be completely secure.
+            </p>
+
+
+
+            <!-- 8 -->
+
+            <h2>
+                8. Data Sharing
+            </h2>
+
+            <p>
+                We do not sell your personal financial
+                information.
+            </p>
+
+            <p>
+                Information may be processed by third-party
+                service providers when necessary to operate,
+                maintain, secure or improve the App.
+            </p>
+
+            <p>
+                We may also disclose information where
+                required by applicable law, legal process,
+                regulation or governmental request.
+            </p>
+
+
+
+            <!-- 9 -->
+
+            <h2>
+                9. Children's Privacy
+            </h2>
+
+            <p>
+                Finora is not specifically directed toward
+                children.
+            </p>
+
+            <p>
+                We do not knowingly collect personal
+                information from children in violation of
+                applicable laws.
+            </p>
+
+            <p>
+                If you believe that a child has provided
+                personal information through the App, please
+                contact us so that appropriate action can be
+                taken.
+            </p>
+
+
+
+            <!-- 10 -->
+
+            <h2>
+                10. Your Choices
+            </h2>
+
+            <p>
+                Depending on the features available in the
+                App, you may be able to:
+            </p>
+
+            <ul>
+
+                <li>
+                    Edit or delete transactions
+                </li>
+
+                <li>
+                    Remove information stored in the App
+                </li>
+
+                <li>
+                    Disable certain permissions through
+                    your device settings
+                </li>
+
+                <li>
+                    Manage advertising preferences through
+                    your device settings
+                </li>
+
+            </ul>
+
+
+
+            <!-- 11 -->
+
+            <h2>
+                11. Account and Data Deletion
+            </h2>
+
+            <p>
+                If Finora provides account-based services,
+                you may request deletion of your account and
+                associated information by contacting us.
+            </p>
+
+            <p>
+                Some information may need to be retained
+                where required by law or for legitimate
+                security, fraud-prevention or operational
+                purposes.
+            </p>
+
+
+
+            <!-- 12 -->
+
+            <h2>
+                12. Changes to This Privacy Policy
+            </h2>
+
+            <p>
+                We may update this Privacy Policy from time
+                to time to reflect changes to Finora, our
+                services, applicable laws or privacy
+                practices.
+            </p>
+
+            <p>
+                When changes are made, the "Last Updated"
+                date at the top of this page will be updated.
+            </p>
+
+
+
+            <!-- 13 -->
+
+            <h2>
+                13. Contact Us
+            </h2>
+
+            <p>
+                If you have questions, concerns or requests
+                regarding this Privacy Policy or your
+                information, please contact us.
+            </p>
+
+
+            <div class="contact-box">
+
+                <strong>
+                    Finora – Expense & Income Tracker
+                </strong>
+
+                <p>
+                    Email:
+                    <a href="mailto:support@finora.app">
+                        support@finora.app
+                    </a>
+                </p>
+
+            </div>
+
+
+        </article>
+
+    </div>
+
+</main>
+
+
+
+<!-- Footer -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="privacy-policy.html">
+                Privacy Policy
+            </a>
+
+        </div>
+
+        <p>
+            © 2026 Finora. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
