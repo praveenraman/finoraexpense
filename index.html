@@ -405,7 +405,7 @@
                 0 35px 70px rgba(0,0,0,.22);
         }
 
-        .phone-screen {
+        /* .phone-screen {
             height: 100%;
 
             overflow: hidden;
@@ -431,7 +431,28 @@
             border-radius: 0 0 18px 18px;
 
             z-index: 4;
-        }
+        } */
+
+        .phone-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    border-radius: inherit;
+
+    background: #ffffff;
+}
+
+.phone-screen img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
 
         .app-header {
             padding: 42px 20px 15px;
@@ -1377,119 +1398,28 @@
 
         <!-- APP MOCKUP -->
 
-        <div class="hero-visual">
+        <!-- APP MOCKUP -->
 
-            <div class="glow"></div>
+<div class="hero-visual">
 
+    <div class="glow"></div>
 
-            <div class="phone">
+    <div class="phone">
 
-                <div class="phone-notch"></div>
+        <div class="phone-notch"></div>
 
+        <div class="phone-screen">
 
-                <div class="phone-screen">
-
-                    <div class="app-header">
-
-                        <span>☰</span>
-
-                        <strong>Finora</strong>
-
-                        <span>🔔</span>
-
-                    </div>
-
-
-                    <div style="padding:0 20px 10px;">
-                        <small>Overview</small>
-                    </div>
-
-
-                    <div class="balance-card">
-
-                        <small>Total Balance</small>
-
-                        <h3>$2,650.00</h3>
-
-                        <span class="balance-up">
-                            ↑ 12.5% vs last month
-                        </span>
-
-                    </div>
-
-
-                    <div class="money-cards">
-
-                        <div class="money-card">
-
-                            <small>Income</small>
-
-                            <strong class="income">
-                                $4,350
-                            </strong>
-
-                        </div>
-
-
-                        <div class="money-card">
-
-                            <small>Expense</small>
-
-                            <strong class="expense">
-                                $1,700
-                            </strong>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="chart-card">
-
-                        <strong>
-                            Spending Overview
-                        </strong>
-
-                        <div class="chart"></div>
-
-                        <small>
-                            Total Expense
-                        </small>
-
-                    </div>
-
-
-                    <div class="phone-nav">
-
-                        <span class="selected">
-                            ⌂
-                        </span>
-
-                        <span>
-                            ▦
-                        </span>
-
-                        <span>
-                            ＋
-                        </span>
-
-                        <span>
-                            ◫
-                        </span>
-
-                        <span>
-                            ●
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
+            <img
+                src="https://raw.githubusercontent.com/praveenraman/finoraexpense/main/finoraDashboard.png"
+                alt="Finora Expense & Income Tracker Dashboard"
+            >
 
         </div>
 
     </div>
+
+</div>
 
 </section>
 
