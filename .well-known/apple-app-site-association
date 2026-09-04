@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "844083796.iosdeveloperlive.Finora"
+        ],
+        "components": [
+          {
+            "/": "/#download/*"
+          }
+        ]
+      }
+    ]
+  }
+}
